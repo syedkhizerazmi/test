@@ -40,6 +40,10 @@ $.ajax({
          document.querySelector(`#heading`).innerHTML=data.sale.heading;
          document.querySelector(`#description`).innerHTML=data.info.description;
          document.querySelector(`#description-second`).innerHTML=data.sale.description;
+                  document.querySelector(`#press`).innerHTML=data.menuOptions[0];
+         document.querySelector(`#HIRING`).innerHTML=data.menuOptions[1];
+         document.querySelector(`#ENTERPRISE`).innerHTML=data.menuOptions[2];
+         document.querySelector(`#PRIVACYs`).innerHTML=data.menuOptions[3];
         //  document.querySelector(`#press`).innerHTML=data.menuOptions.press;
          
      }
@@ -59,6 +63,10 @@ $.ajax({
          document.querySelector(`#heading`).innerHTML=data.sale.heading;
          document.querySelector(`#description`).innerHTML=data.info.description;
          document.querySelector(`#description-second`).innerHTML=data.sale.description;
+                  document.querySelector(`#press`).innerHTML=data.menuOptions[0];
+         document.querySelector(`#HIRING`).innerHTML=data.menuOptions[1];
+         document.querySelector(`#ENTERPRISE`).innerHTML=data.menuOptions[2];
+         document.querySelector(`#PRIVACYs`).innerHTML=data.menuOptions[3];
         //  document.querySelector(`#press`).innerHTML=data.menuOptions.press;
          
      }
@@ -77,6 +85,10 @@ $.ajax({
          document.querySelector(`#heading`).innerHTML=data.sale.heading;
          document.querySelector(`#description`).innerHTML=data.info.description;
          document.querySelector(`#description-second`).innerHTML=data.sale.description;
+                  document.querySelector(`#press`).innerHTML=data.menuOptions[0];
+         document.querySelector(`#HIRING`).innerHTML=data.menuOptions[1];
+         document.querySelector(`#ENTERPRISE`).innerHTML=data.menuOptions[2];
+         document.querySelector(`#PRIVACYs`).innerHTML=data.menuOptions[3];
         //  document.querySelector(`#press`).innerHTML=data.menuOptions.press;
          
      }
